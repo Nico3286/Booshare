@@ -3,7 +3,7 @@
  */
 package hello.utlilisateurs.interfaces;
 
-import hello.livres.Livres;
+import hello.livres.Livre;
 import hello.utlilisateurs.Utilisateur;
 
 /**
@@ -11,8 +11,8 @@ import hello.utlilisateurs.Utilisateur;
  *
  */
 public interface LoueurInterface {
-		public Utilisateur addBook(Livres livre);
-		public Utilisateur loan(Livres livre);
+		public Utilisateur addBook(Livre livre);
+		public Utilisateur loan(Livre livre);
 		public Utilisateur calculeCotisation();
 	}
 

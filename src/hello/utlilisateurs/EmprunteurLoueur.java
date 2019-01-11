@@ -3,7 +3,7 @@
  */
 package hello.utlilisateurs;
 
-import hello.livres.Livres;
+import hello.livres.Livre;
 import hello.utlilisateurs.interfaces.EmprunteurInterface;
 import hello.utlilisateurs.interfaces.LoueurInterface;
 
@@ -29,7 +29,7 @@ public class EmprunteurLoueur extends Utilisateur implements EmprunteurInterface
 	//	return new Emprunteur();
 	//}
 	
-	public Utilisateur addBook(Livres livre) {
+	public Utilisateur addBook(Livre livre) {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -38,7 +38,7 @@ public class EmprunteurLoueur extends Utilisateur implements EmprunteurInterface
 	 * @see hello.utlilisateurs.interfaces.LoueurInterface#loan(hello.livres.Livres)
 	 */
 	@Override
-	public Utilisateur loan(Livres livre) {
+	public Utilisateur loan(Livre livre) {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -65,7 +65,7 @@ public class EmprunteurLoueur extends Utilisateur implements EmprunteurInterface
 	 * @see hello.utlilisateurs.interfaces.EmprunteurInterface#createBookBorrowing(hello.utlilisateurs.Loueur, hello.livres.Livres)
 	 */
 	@Override
-	public Utilisateur createBookBorrowing(Loueur loueur, Livres livres) {
+	public Utilisateur createBookBorrowing(Loueur loueur, Livre livres) {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -74,7 +74,7 @@ public class EmprunteurLoueur extends Utilisateur implements EmprunteurInterface
 	 * @see hello.utlilisateurs.interfaces.EmprunteurInterface#returnBook(hello.utlilisateurs.Loueur, hello.livres.Livres)
 	 */
 	@Override
-	public Utilisateur returnBook(Loueur loueur, Livres livres) {
+	public Utilisateur returnBook(Loueur loueur, Livre livres) {
 		// TODO Auto-generated method stub
 		return null;
 	}

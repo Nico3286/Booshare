@@ -3,7 +3,7 @@
  */
 package hello.utlilisateurs.interfaces;
 
-import hello.livres.Livres;
+import hello.livres.Livre;
 import hello.utlilisateurs.Loueur;
 import hello.utlilisateurs.Utilisateur;
 
@@ -13,8 +13,8 @@ import hello.utlilisateurs.Utilisateur;
  */
 public interface EmprunteurInterface {
 	public Utilisateur facturation();
-	public Utilisateur createBookBorrowing(Loueur loueur, Livres livres);
-	public Utilisateur returnBook(Loueur loueur, Livres livres);
+	public Utilisateur createBookBorrowing(Loueur loueur, Livre livres);
+	public Utilisateur returnBook(Loueur loueur, Livre livres);
 }
 
 

@@ -8,7 +8,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import hello.livres.Auteurs;
-import hello.livres.Livres;
+import hello.livres.Livre;
+import hello.livres.exceptions.DateNaissanceException;
 
 /**
  * @author Dell
@@ -19,8 +20,9 @@ public class Hello {
 	/**
 	 * @param args
 	 * @throws ParseException 
+	 * @throws DateNaissanceException 
 	 */
-	public static void main(String[] args) throws ParseException {
+	public static void main(String[] args) throws ParseException, DateNaissanceException {
         
 		
 		// Création des utilisateurs
@@ -55,8 +57,8 @@ public class Hello {
        // System.out.println("Maison de : " + alien.nom());
         
        // Création de livres
-        Livres lesMiserables = new  Livres("Les Misérables", "Bla bla bla", 1);
-        Livres fondation = new  Livres("Fondation", "Bli bli bli", 159);
+        Livre lesMiserables = new  Livre("Les Misérables", "Bla bla bla", 1);
+        Livre fondation = new  Livre("Fondation", "Bli bli bli", 159);
         
         System.out.println("Résumé : " + lesMiserables.getResume() 
                            + "  Nombre de pages : " + lesMiserables.getNbPages());
